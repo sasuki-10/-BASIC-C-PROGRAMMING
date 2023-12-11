@@ -21,7 +21,6 @@ void create_first(int value)
 
 void addnode(int value)
 {
-
  temp=first;
  while(temp->next!=null)
  {
@@ -32,7 +31,8 @@ void addnode(int value)
  ttemp->next=null;
  temp->next=ttemp;
  printf("NODE INSERTED");	
-}
+ }
+
 void display()
 {
 	temp=first;
@@ -42,6 +42,7 @@ void display()
 		temp=temp->next;
 	}
 }
+
 void sum()
 {
 	int s=0;
@@ -53,6 +54,7 @@ void sum()
 	}
 	printf("\nsum is %d",s);
 }
+
 int main()
 {
 int n;
@@ -68,10 +70,11 @@ char i;
 		break;
 		printf("\n\nENTER THE DATA YOU WANT TO ENTER:");
 		scanf("%d",&n);
-             }
-                      addnode(n);
-		printf("\n\nTHIS IS YOUR FINAL LIST....\n");
+		addnode(n);
+         }
+	        printf("\n\nTHIS IS YOUR FINAL LIST....\n");
 		display();
 		sum();
-                      return 0;
+                
+	return 0;
 }
