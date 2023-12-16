@@ -5,8 +5,7 @@
 struct node{
 	int data;
 	struct node *next;
-	
-};
+       };
  struct node *first,*temp,*ttemp,*p;
 
 
