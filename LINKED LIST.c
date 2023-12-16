@@ -11,7 +11,6 @@ struct node{
 
 void create_first(int value)
 {
-
 	first=(struct node *) malloc(sizeof(struct node));
 	first->data=value;
 	first->next=null;
