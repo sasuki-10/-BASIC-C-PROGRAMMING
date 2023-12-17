@@ -74,15 +74,10 @@ int main()
 	push(15);
 	push(18);
 	push(30);
-    push(40);
+        push(40);
 printf(" \n%d",pop());
-
 printf(" \n%d",pop());
-
 printf(" \n%d",pop());
-
 printf(" \n%d",pop());
- 
-
-	getch();
+getch();
 }
