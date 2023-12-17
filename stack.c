@@ -45,7 +45,8 @@ void push(int x)
 	{
 		return ;
 	}
-	else{
+	else
+	{
 		p->top = p->top+1;
 		p->data[p->top]=x;
 	}
@@ -59,8 +60,7 @@ int pop()
 		return ;
 	}
 	else{
-	
-     	x=p->data[p->top];
+		x=p->data[p->top];
 		p->top=p->top-1;
 		return x;
 	}
